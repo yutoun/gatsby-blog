@@ -25,14 +25,14 @@ module.exports = {
     }
   ],
   author: {
-    name: 'John Doe',
+    name: 'yuto',
     photo: '/photo.jpg',
     bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
     contacts: {
       email: '',
       facebook: '#',
       telegram: '#',
-      twitter: '#',
+      twitter: 'https://twitter.com/way_to_be_free',
       github: '#',
       rss: '',
       vkontakte: '',
