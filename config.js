@@ -32,7 +32,7 @@ module.exports = {
       email: '',
       facebook: '#',
       telegram: '#',
-      twitter: '/way_to_be_free',
+      twitter: '/a_pathToFreedom',
       github: '#',
       rss: '',
       vkontakte: '',

@@ -19,7 +19,7 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/static`,
-        name: 'assets'
+        name: 'assets',
       }
     },
     {
@@ -141,6 +141,7 @@ module.exports = {
       resolve: 'gatsby-plugin-google-gtag',
       options: {
         trackingIds: [siteConfig.googleAnalyticsId],
+        head: true, //これ追加
         pluginConfig: {
           head: true
         }
