@@ -1,6 +1,6 @@
 ---
 title: "【文系ガチの未経験エンジニアだった僕が自力4ヶ月弱で自社開発のweb系会社で新卒内定をもらうために行ったこと】"
-date: "2016-02-02T22:40:32.169Z"
+date: "2021-06-20T22:40:32.169Z"
 template: "post"
 draft: false
 slug: "a-brief-history-of-typography"
