@@ -7,7 +7,7 @@ slug: "a-brief-history-of-typography"
 category: "Design Inspiration"
 tags:
   - "programing"
-description: "初めての投稿です。どのように私が文系未経験からどのようにして新卒就活をしたのか、共有します！"
+description: "222初めての投稿です。どのように私が文系未経験からどのようにして新卒就活をしたのか、共有します！"
 socialImage: "/media/my_face.jpg"
 ---
-2nd one for test
+aa
