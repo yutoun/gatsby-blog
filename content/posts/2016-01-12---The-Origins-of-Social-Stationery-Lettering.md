@@ -6,7 +6,7 @@ draft: false
 slug: "the-origins-of-social-stationery-lettering"
 category: "Design Culture"
 description: "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante."
-socialImage: "/media/image-3.jpg"
+socialImage: "/media/my_face.jpg"
 ---
 
 **Pellentesque habitant morbi tristique** senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. *Aenean ultricies mi vitae est.* Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. 
@@ -24,7 +24,7 @@ Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque i
 
 <figure>
 	<blockquote>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p>
+		<p>yooooooooooo wassup</p>
 		<footer>
 			<cite>— Aliquam tincidunt mauris eu risus.</cite>
 		</footer>
