@@ -16,6 +16,7 @@ socialImage: "/media/my_face.jpg"
 
 # シーケンス図って何よ
 シーケンス図というのは
+![aaa](../photos/UML.png)
 
 # UMLって何よ
 
@@ -23,4 +24,3 @@ socialImage: "/media/my_face.jpg"
 
 # 結論
 
-![Nulla faucibus vestibulum eros in tempus. Vestibulum tempor imperdiet velit nec dapibus](/media/image-10.jpg)
