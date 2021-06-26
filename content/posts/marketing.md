@@ -1,10 +1,10 @@
 ---
-title: "test"
+title: "marketing"
 date: "2021-06-20T22:40:32.169Z"
 template: "post"
 draft: false
 slug: "a-brief-history-of-typography"
-category: "tech"
+category: "marketing"
 tags:
   - "programing"
 description: "初めての投稿です。どのように私が文系未経験からどのようにして新卒就活をしたのか、共有します！"

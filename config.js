@@ -12,28 +12,44 @@ module.exports = {
   useKatex: false,
   menu: [
     {
-      label: 'Articles',
+      label: 'All',
       path: '/'
+    },
+    {
+      label: 'Tech',
+      path: '/category/tech'
+    },
+    {
+      label: 'English',
+      path: '/category/english'
+    },
+    {
+      label: 'Marketing',
+      path: '/category/marketing'
+    },
+    {
+      label: 'Others',
+      path: '/category/others'
     },
     {
       label: 'About me',
       path: '/pages/about'
     },
-    {
-      label: 'Contact me',
-      path: '/pages/contacts'
-    }
+    // {
+        //label: 'Contact me',
+        //path: '/pages/contacts'
+    // }
   ],
   author: {
     name: 'yuto',
     photo: 'myface.png',
-    bio: '早稲田文系(プログラミング未経験)▶︎バックパッカー▶︎大手新聞会社都内営業1位▶︎ワーホリ🇦🇺🇳🇿 ▶︎ プログラミング完全独学▶︎ 自社開発・個人開発エンジニア｜ TOEIC:895｜python × Vue.js × AWS｜現PM｜よくある自己啓発×｜現場で学んだホカホカの知識をアウトプット💪',
+    bio: '早稲田文系(プログラミング未経験)▶︎バックパッカー▶︎大手新聞会社都内営業1位▶︎ワーホリ🇦🇺🇳🇿 ▶︎ プログラミング完全独学 ｜ TOEIC:895｜python × Vue.js ｜ tech,英語, SNSマーケについて書き殴ります',
     contacts: {
       email: '',
       facebook: '#',
       telegram: '#',
       twitter: '/a_pathToFreedom',
-      github: '#',
+      github: '',
       rss: '',
       vkontakte: '',
       linkedin: '#',
