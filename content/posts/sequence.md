@@ -23,4 +23,4 @@ socialImage: "/media/my_face.jpg"
 
 # 結論
 
-![Nulla faucibus vestibulum eros in tempus. Vestibulum tempor imperdiet velit nec dapibus](/media/image-0.jpg)
+![Nulla faucibus vestibulum eros in tempus. Vestibulum tempor imperdiet velit nec dapibus](/media/image-10.jpg)
