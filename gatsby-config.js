@@ -43,6 +43,14 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: 'G-T7LYQS2HJF',
+        head: true
+      }
+    },
+    `gatsby-plugin-sitemap`, 
+    {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/static`,
