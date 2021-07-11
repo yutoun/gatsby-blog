@@ -92,7 +92,12 @@
 @media screen and (max-width: 480px) {
   .content {
     &__body {
-      padding: 30px;
+      padding: 0px;
+      margin: 30px;
+    }
+    &__title {
+      padding: 0px;
+      margin: 30px;
     }
   }
 }
