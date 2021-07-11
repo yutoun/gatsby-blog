@@ -15,6 +15,31 @@ module.exports = {
     author: siteConfig.author
   },
   plugins: [
+    // google analytics追加
+    {
+      resolve: 'gatsby-plugin-google-analytics',
+      options: {
+        trackingId: 'G-T7LYQS2HJF',
+        head: true,
+        anonymize: true,
+        respectDNT: true,
+      }
+    },
+    // google ads追加
+    {
+      resolve: `@isamrish/gatsby-plugin-google-adsense`,
+      options: {
+        googleAdClientId: 'ca-pub-1580241070744469',
+        head: true,
+      },
+    },
+    // images
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: path.join(__dirname, `src`, `images`),
+      },
+    },
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-transformer-remark`,
@@ -34,24 +59,6 @@ module.exports = {
     },
   ],
   plugins: [
-    // google analytics追加
-    {
-      resolve: 'gatsby-plugin-google-analytics',
-      options: {
-        trackingId: 'G-T7LYQS2HJF',
-        head: true,
-        anonymize: true,
-        respectDNT: true,
-      }
-    },
-    // google ads追加
-    {
-      resolve: `@isamrish/gatsby-plugin-google-adsense`,
-      options: {
-        googleAdClientId: 'ca-pub-1580241070744469',
-        head: true,
-      },
-    },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
