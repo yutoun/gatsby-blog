@@ -37,8 +37,11 @@
     &-meta {
       &-time {
         font-size: $typographic-small-font-size;
-        color: $color-base;
-        font-weight: 600;
+        //投稿日のデザイン修正
+        // color: $color-base;
+        // font-weight: 600;
+        color: $color-gray;
+        font-weight: 400;
         text-transform: uppercase;
       }
 
