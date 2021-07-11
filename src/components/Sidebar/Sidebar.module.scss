@@ -8,6 +8,11 @@
         padding: 25px 20px 0;
     }
 }
+@media screen and (max-width: 480px) {
+    .sidebar {
+        display: none;
+    }
+  }
 
 @include breakpoint-sm {
     .sidebar {
