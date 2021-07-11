@@ -1,15 +1,5 @@
 'use strict';
 module.exports = {
-  plugins: [
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: 'G-T7LYQS2HJF',
-        head: true
-      }
-    },
-    `gatsby-plugin-sitemap`, 
-  ],
   url: 'https://lumen.netlify.com',
   pathPrefix: '/',
   title: 'A Path To Freedom',
