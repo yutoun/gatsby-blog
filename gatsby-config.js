@@ -52,7 +52,6 @@ module.exports = {
         head: true,
       },
     },
-    `gatsby-plugin-sitemap`, 
     {
       resolve: 'gatsby-source-filesystem',
       options: {
