@@ -33,14 +33,7 @@ module.exports = {
         head: true,
       },
     },
-    // images
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: path.join(__dirname, `src`, `images`),
-      },
-    },
-    `gatsby-plugin-sharp`,
+    'gatsby-plugin-sharp',
     {
       resolve: `gatsby-transformer-remark`,
       options: {
