@@ -34,6 +34,14 @@ module.exports = {
     },
   ],
   plugins: [
+    // google ads追加
+    {
+      resolve: `@isamrish/gatsby-plugin-google-adsense`,
+      options: {
+        googleAdClientId: 'ca-pub-1580241070744469',
+        head: true,
+      },
+    },
     {
       resolve: 'gatsby-source-filesystem',
       options: {

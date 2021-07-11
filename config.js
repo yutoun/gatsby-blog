@@ -1,5 +1,5 @@
 'use strict';
-
+<script data-ad-client="ca-pub-1580241070744469" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 module.exports = {
   plugins: [
     {

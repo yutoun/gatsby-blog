@@ -38,6 +38,7 @@
     "disqus"
   ],
   "dependencies": {
+    "@isamrish/gatsby-plugin-google-adsense": "^1.2.0",
     "@sentry/gatsby": "^6.7.1",
     "@sentry/tracing": "^6.7.1",
     "bluebird": "^3.7.2",
