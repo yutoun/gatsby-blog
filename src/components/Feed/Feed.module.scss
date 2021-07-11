@@ -16,11 +16,11 @@
       @include margin-bottom(.5);
 
       &-link {
-        color: $color-base;
+        color: $color-blue;
 
         &:hover,
         &:focus {
-          color: $color-base;
+          color: $color-primary;
           border-bottom: 1px solid $color-base;
         }
 
@@ -28,9 +28,11 @@
 
     }
 
+    // topの記事の説明
     &-description {
       font-size: $typographic-base-font-size;
       @include line-height(1);
+      color: $color-main;
       @include margin-bottom(.75);
     }
 

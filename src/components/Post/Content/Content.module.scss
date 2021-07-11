@@ -1,14 +1,17 @@
 @import '../../../assets/scss/variables';
 @import '../../../assets/scss/mixins';
 
+// 本文のデザイン
+
 .content {
-  max-width: $layout-post-single-width;
+  // max-width: $layout-post-single-width;
+  max-width: auto;
   padding: 0 15px;
   margin: 0 auto;
-
+  // 記事のタイトル
   &__title {
-    font-size: $typographic-base-font-size * 2;
-    max-width: $layout-post-width;
+    font-size: $typographic-base-font-size * 1.8;
+    max-width: auto;
     margin-left: auto;
     margin-right: auto;
     font-weight: 600;
@@ -19,6 +22,7 @@
   }
 
   &__body {
+    padding-left: 40%;
     & figure {
       @include margin-bottom(1);
 
@@ -29,7 +33,7 @@
         @include padding(1, 0);
 
         & p {
-          max-width: $layout-post-width;
+          max-width: auto;
           font-size: $typographic-base-font-size * 1.6817;
           margin-top: 0;
           @include margin-bottom(1);
@@ -45,7 +49,7 @@
     }
 
     & * {
-      max-width: $layout-post-width;
+      max-width: auto;
       margin-left: auto;
       margin-right: auto
     }
@@ -63,7 +67,7 @@
     padding: 0;
 
     &__title {
-      font-size: $typographic-base-font-size * 3;
+      font-size: $typographic-base-font-size * 2;
       @include line-height(2.25);
       @include margin-top(2.25);
       @include margin-bottom(1.5)
