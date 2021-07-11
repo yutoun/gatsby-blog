@@ -12,6 +12,10 @@
     @include margin-top(4);
     @include margin-bottom(1);
   }
+  h3, h4 {
+    border-left: 3px solid #2294D6;
+    padding-left: 10px;
+  }
   &__footer {
     max-width: $layout-post-width;
     margin: 0 auto;
