@@ -46,7 +46,7 @@ module.exports = {
   ],
   author: {
     name: 'yuto',
-    photo: 'myface.png',
+    photo: 'me.png',
     bio: '早稲田文系(プログラミング未経験)▶︎バックパッカー▶︎大手新聞会社都内営業1位▶︎ワーホリ🇦🇺🇳🇿 ▶︎ プログラミング完全独学 ｜ TOEIC:895｜python × Vue.js ｜ tech,英語, SNSマーケについて書き殴ります',
     contacts: {
       email: '',

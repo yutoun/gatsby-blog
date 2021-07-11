@@ -34,6 +34,16 @@ module.exports = {
     },
   ],
   plugins: [
+    // google analytics追加
+    {
+      resolve: 'gatsby-plugin-google-analytics',
+      options: {
+        trackingId: 'G-T7LYQS2HJF',
+        head: true,
+        anonymize: true,
+        respectDNT: true,
+      }
+    },
     // google ads追加
     {
       resolve: `@isamrish/gatsby-plugin-google-adsense`,
@@ -41,13 +51,6 @@ module.exports = {
         googleAdClientId: 'ca-pub-1580241070744469',
         head: true,
       },
-    },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: 'G-T7LYQS2HJF',
-        head: true
-      }
     },
     `gatsby-plugin-sitemap`, 
     {
