@@ -15,6 +15,15 @@ module.exports = {
     author: siteConfig.author
   },
   plugins: [
+    // google_ads追加
+    {
+      resolve: 'gatsby-plugin-google-adsense',
+      options: {
+        publisherId: `ca-pub-1580241070744469`
+      },
+    },
+  ],
+  plugins: [
     // google analytics追加
     {
       resolve: 'gatsby-plugin-google-analytics',
@@ -24,14 +33,6 @@ module.exports = {
         anonymize: true,
         respectDNT: true,
       }
-    },
-    // google ads追加
-    {
-      resolve: `@isamrish/gatsby-plugin-google-adsense`,
-      options: {
-        googleAdClientId: 'ca-pub-1580241070744469',
-        head: true,
-      },
     },
     'gatsby-plugin-sharp',
     {
