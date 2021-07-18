@@ -12,9 +12,25 @@
     @include margin-top(4);
     @include margin-bottom(1);
   }
-  h3, h4 {
+  h3 {
     border-left: 3px solid #2294D6;
     padding-left: 10px;
+  }
+  h4 {
+    padding-left: 10px;
+  }
+  h5 {
+    font-size: $typographic-base-font-size * 1.1;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-right: 0;
+    display: inline-block;
+    background: linear-gradient(transparent 70%, rgb(96.4%, 87.9%, 2.6%) 70%);
+  }
+  br {
+    margin: 10px 0;
+    padding: 10px 0;
   }
   &__footer {
     max-width: $layout-post-width;
