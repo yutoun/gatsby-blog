@@ -46,7 +46,7 @@ module.exports = {
       github: '',
       rss: '',
       vkontakte: '',
-      linkedin: '#',
+      linkedin: '/yuto-ichihara-426800217',
       instagram: '#',
       line: '',
       gitlab: '',
